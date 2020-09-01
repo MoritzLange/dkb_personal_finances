@@ -24,16 +24,18 @@ and hence easier to assign to categories, affecting step 2).
 In order to use this tool, do the following:
 
 1. Install `pdfplumber` (it's the only requirement not included in anaconda)
+
 2. Run `cc_pdfs_to_dataframe.ipynb` and `statement_pdfs_to_dataframe.ipynb`,
   after adjusting the file paths to the respective statements.
+
 3. Go to the annotation files
   (`cc_data_annotation.ipynb` and `statement_data_annotation.ipynb`)
   and add meaningful substrings to each category. Repeat this step as
   instructed in the file, until no categories are unassigned (or if there
-  are some still unassigned, they'll be ignored in step 3).
-
+  are some still unassigned, they'll be ignored in step 4).<br>
   If you add or remove categories, adjust relevant cells in `data_analysis.ipynb`
   as well, if you intend to use that file.
+  
 4. You now have the annotated data in a DataFrame. You can either write code to
   analyse it yourself, or you can use `data_analysis.ipynb` to see monthly rolling
   costs for each category and plot pie-charts of average costs for different time

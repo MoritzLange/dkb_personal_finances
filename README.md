@@ -30,7 +30,7 @@ In order to use this tool, do the following:
   instructed in the file, until no categories are unassigned (or if there
   are some still unassigned, they'll be ignored in step 3).
 
-  If you add or remove categories, adjust relevant cells in data_analysis.ipynb
+  If you add or remove categories, adjust relevant cells in `data_analysis.ipynb`
   as well, if you intend to use that file.
 4. You now have the annotated data in a DataFrame. You can either write code to
   analyse it yourself, or you can use `data_analysis.ipynb` to see monthly rolling

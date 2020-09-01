@@ -15,6 +15,8 @@ tables in the PDFs have different formats (affecting step 1), and then
 the subjects also often look different (credit card subjects are more concise
 and hence easier to assign to categories, affecting step 2).
 
+**NB: If you fork this or in any other way upload your own version somewhere, make sure to remove all sensitive information from the source code! These include, amongst others, bank account numbers and (partial) credit card numbers!**
+
 ### Usage
 
 In order to use this tool, do the following:
@@ -34,8 +36,6 @@ In order to use this tool, do the following:
   analyse it yourself, or you can use `data_analysis.ipynb` to see monthly rolling
   costs for each category and plot pie-charts of average costs for different time
   frames.
-
-**NB: If you fork this or in any other way upload your own version somewhere, make sure to remove all sensitive information from the source code! These include, amongst others, bank account numbers and (partial) credit card numbers!**
 
 
 ### Requirements

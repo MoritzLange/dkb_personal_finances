@@ -1,7 +1,7 @@
 # Personal finance analysis for DKB accounts
 
 This is a collection of notebooks for reading in and analysing credit card and
-bank account data from DKB (Deutsche Kredit Bank) accounts.
+bank account data from DKB (Deutsche Kreditbank) accounts.
 
 It is separated into three parts:
 

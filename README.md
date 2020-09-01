@@ -3,6 +3,8 @@
 This is a collection of notebooks for reading in and analysing credit card and
 bank account data from DKB (Deutsche Kreditbank) accounts.
 
+It works with the standard documents from "Postfach" in PDF format, and does not require CSV files of transactions.
+
 It is separated into three parts:
 
 1. Read data from PDF and convert to pandas DataFrame

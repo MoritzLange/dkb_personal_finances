@@ -8,7 +8,9 @@ They work with the standard documents from "Postfach" in PDF format, instead of 
 The tool is separated into three parts:
 
 1. Read data from PDF and convert to pandas DataFrame
+
 2. Annotate the data so that each expense has a category
+
 3. Analyse the annotated data <br> (you might want to implement your own analysis code tailored to your requirements)
 
 Each of these three steps has its own notebook file. For steps 1 and 2, there

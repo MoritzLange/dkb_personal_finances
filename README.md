@@ -10,7 +10,7 @@ It is separated into three parts:
 3. Analyse the annotated data <br> (you might want to implement your own analysis code tailored to your requirements)
 
 Each of these three steps has its own file. For steps 1 and 2, there
-are one file for credit cards and one for account statements, since there
+are one file for credit cards and one for account statements, since their
 tables in the PDFs have different formats (affecting step 1), and then
 the subjects also often look different (credit card subjects are more concise
 and hence easier to assign to categories, affecting step 2).

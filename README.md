@@ -3,7 +3,7 @@
 This is a collection of notebooks for reading in and analysing credit card and
 bank account data from DKB (Deutsche Kreditbank) accounts.
 
-They work with the standard documents from "Postfach" in PDF format, and does not require CSV files of transactions.
+They work with the standard documents from "Postfach" in PDF format, instead of manually exported CSV files of transactions. Due to this, this code is suited to aggregate and analyse all past financial data as long as those bank account and credit card statements are available.
 
 The tool is separated into three parts:
 
